@@ -477,7 +477,7 @@ tbody td{padding:11px 14px;font-size:13px;vertical-align:middle}
     <div class="login-error" id="login-error">Invalid username or password. Please try again.</div>
     <div class="form-group">
       <label>Username</label>
-      <input type="username" id="user-name" placeholder="Enter username">
+      <input type="text" id="user-name" placeholder="Enter username">
     </div>
     <div class="form-group">
       <label>Password</label>
@@ -500,7 +500,7 @@ tbody td{padding:11px 14px;font-size:13px;vertical-align:middle}
           <label>Recovery Code</label>
           <input type="password" id="forgot-code" placeholder="Enter recovery code">
         </div>
-        <div class="recovery-code-hint">💡 Default recovery code: <strong>Vphala@123</strong><br>Change it by editing <code>RECOVERY_CODE</code> in the HTML source.</div>
+        <br>Change it by editing <code>RECOVERY_CODE</code> in the HTML source.</div>
         <button class="btn-login" style="margin-top:12px;font-size:14px" onclick="verifyRecoveryCode()">Verify Code →</button>
       </div>
       <!-- Step 2: Set new password -->
@@ -536,8 +536,9 @@ tbody td{padding:11px 14px;font-size:13px;vertical-align:middle}
             <div class="name">Jabir</div>
             <div class="cred">admin</div>
           </div>
-          <div class="demo-role">Admin</div>
+          <div class="role">Admin</div>
         </div>
+      </div>
         <div class="demo-tile" onclick="fillDemo('sara@techflow.ae','user123')">
           <div class="demo-avatar">SM</div>
           <div class="demo-info">
